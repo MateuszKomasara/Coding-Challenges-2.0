@@ -5,6 +5,6 @@
 
 
 
-// Solution:
+//Solution
 
 const adjacentElementsProduct = array => Math.max(...array.map((x,i)=>x*array[i+1]).slice(0,-1));
