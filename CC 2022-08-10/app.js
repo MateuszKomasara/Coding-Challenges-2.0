@@ -11,3 +11,4 @@ function fourSeven(n){
     }
     return object[n] || 0;
   }
+  
