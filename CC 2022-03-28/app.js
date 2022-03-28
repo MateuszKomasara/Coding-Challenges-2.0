@@ -8,3 +8,7 @@ function unusualFive() {
   return beets.length;
 }
 
+const unusualFive = () => {
+    let beets = 'beets';
+    return beets.length;
+}
