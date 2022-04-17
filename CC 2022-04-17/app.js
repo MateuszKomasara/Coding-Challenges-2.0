@@ -10,3 +10,7 @@ let bigNum = Math.max(n,m);
 let smallNum = Math.min(n,m);
     return bigNum % smallNum;
 }
+
+function remainder(a, b){
+    return a > b ? a % b : b % a;
+} 
