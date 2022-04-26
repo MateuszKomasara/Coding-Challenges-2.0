@@ -10,3 +10,4 @@
 // "1"    =>  NULL
 // "1,2"  =>  NULL
 
+array = arr => arr.split(',').slice(1,-1).join(' ') || null;
