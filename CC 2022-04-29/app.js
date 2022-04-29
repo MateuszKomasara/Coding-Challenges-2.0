@@ -5,3 +5,5 @@
 function main(verb, noun){
     return verb + noun;
 }
+
+const main = (verb, noun) => verb + noun; 
