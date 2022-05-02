@@ -6,3 +6,5 @@ var a = "dev"
 var b = "Lab"
 
 var name = a + b
+
+const varName = (a,b) => a + b;
