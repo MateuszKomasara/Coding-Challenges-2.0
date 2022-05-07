@@ -6,6 +6,9 @@
 
 
 function isToday(date) {
-  return new Date().toDateString() === date.toDateString();
+    return new Date().toDateString() === date.toDateString();
 }
+
+const isToday = date => new Date().toDateString() === date.toDateString();
+
 
