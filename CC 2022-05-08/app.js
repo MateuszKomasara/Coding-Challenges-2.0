@@ -8,5 +8,7 @@
 // String str will never be null.
 
 var replaceDots = function(str) {
-  return str.split('.').join('-');
+    return str.split('.').join('-');
 }
+
+const replaceDots = str => str.split('.').join('-');
