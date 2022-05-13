@@ -16,5 +16,12 @@ function howManyDalmatians(number) {
     }
 }
 
-
+// refactore solution
+const howManyDalmatians = number => {
+    if( number < 11 ) return "Hardly any";
+    if( number < 51 ) return "More than a handful!";
+    if( number < 101 ) return "Woah that's a lot of dogs!";
+    return "101 DALMATIANS!!!";
+  }
+  
 
