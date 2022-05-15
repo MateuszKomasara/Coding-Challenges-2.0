@@ -4,4 +4,6 @@
 
 function hero(bullets, dragons){
      return bullets >= dragons * 2
-}
+ }
+
+const hero = (bullets,dragons) => bullets >= dragons * 2 ;
