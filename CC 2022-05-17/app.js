@@ -7,3 +7,4 @@ function reverseWords(str) {
     Â  return str.split("").reverse().join("").split(" ").reverse().join(" ");
     }
     
+    const reverseWords = str => str.split("").reverse().join("").split(" ").reverse().join(" ");
