@@ -4,10 +4,22 @@
 // n = 1  ==> [1, 2]     # [2^0, 2^1]
 // n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 
-function powersOfTwo(n){
-  var result = [];
-  for (var i = 0; i <= n; i++) {
+    
+    function powersOfTwo(n){
+        var result = [];
+        for (var i = 0; i <= n; i++) {
+        result.push(Math.pow(2, i));
+    }
+       return result;
+    }
+    
+
+
+const powersOfTwo = n => {
+    var result = [];
+    for (var i = 0; i <= n; i++) {
     result.push(Math.pow(2, i));
-  }
-  return result;
 }
+   return result;
+}
+
