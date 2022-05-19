@@ -11,3 +11,12 @@ function between(a, b) {
   }
   return arr
 }
+
+
+const between = (a,b) => {
+    arr = []
+    for(i = a;i <= b; i++){ 
+        arr.push(i)
+}
+    return arr
+}
