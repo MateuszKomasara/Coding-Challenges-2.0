@@ -10,3 +10,16 @@ let square = {};
       return acc + c;
   })
 }
+
+// Correct code:
+function squareSum(numbers){
+  return numbers.reduce(function(sum, n){
+    return (n*n) + sum;
+  }, 0)
+}
+
+// Refactored, more efficent code:
+function squareSum(numbers){
+  return numbers.reduce((sum,num) => sum + (num * num), 0);
+}
+
