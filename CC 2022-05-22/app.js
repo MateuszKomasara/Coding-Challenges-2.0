@@ -11,3 +11,12 @@ function simpleMultiplication(number){
     return number * 9;
     }    
 }
+
+
+// Refactored arrow function
+function simpleMultiplication(n){
+  return n % 2 == 0 ? n * 8 : n * 9
+}
+or
+
+const simpleMultiplication=n=>n*(n%2?9:8)
