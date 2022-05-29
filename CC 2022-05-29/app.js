@@ -4,4 +4,5 @@ function toFreud(str){
     return str.split('').map(e => 'sex').join('');
 }
 
+const toFreud = str => str === '' ? '' : str.split(' ').map(e => 'sex').join(' ')
 
