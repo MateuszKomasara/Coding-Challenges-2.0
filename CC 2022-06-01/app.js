@@ -5,3 +5,6 @@
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+//Refactored solution
+const litres = time => Math.floor(time * 0.5);
