@@ -3,8 +3,8 @@
 // // P.S. Each array includes only integer numbers. Output is a number too.
 
 
-functionÂ arrayPlusArray(arr1,Â arr2) {
-constÂ arr3Â =Â arr1.concat(arr2);
-returnÂ arr3.reduce((acc,Â cÂ )=>Â accÂ +Â c,0);
+function arrayPlusArray(arr1, arr2) {
+const arr3 = arr1.concat(arr2);
+return arr3.reduce((acc, c)=> acc + c,0);
 
 }
