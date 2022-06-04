@@ -10,7 +10,7 @@
 // The return Will always be an integer so as the params.
 
 const magNumber = (info) => {
-  const [gun, street] = info;
+  const info = [gun, street] ;
   let magzines = 0;
   switch(gun){
       case('PT92'):
