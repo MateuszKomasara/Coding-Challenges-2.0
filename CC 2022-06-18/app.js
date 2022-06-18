@@ -16,4 +16,7 @@ let gimme = function (inputArray) {
     || (inputArray[2] > inputArray[0] && inputArray[2] < inputArray[1]))
     return 2;
 };
+<<<<<<< HEAD
   // corrections made to line 15 //
+=======
+>>>>>>> bc57d04f3b749751126a745685abe57667423753
