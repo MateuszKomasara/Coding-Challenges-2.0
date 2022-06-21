@@ -8,3 +8,8 @@ function multiplyAd(name, price = 30){
 let length = name.length;
 return length / (1/price);
 }
+
+const multiplyAd = (name, price =30) => {
+    let ength = name.length;
+    return length / (1/price);
+}
