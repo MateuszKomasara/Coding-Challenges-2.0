@@ -11,5 +11,7 @@ return str.split('').map(function(v) {
 }).join('')
 }
 
+const doubleChar = str => str.split('').map(v => v + v).join('') ;
+
 
 
