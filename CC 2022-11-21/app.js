@@ -10,3 +10,5 @@ function isSortedAndHow(array) {
            array.every((v,i,a) => !i || a[i-1] >= v)? "yes, descending":
             "no";
   }
+
+
