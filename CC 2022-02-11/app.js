@@ -1,6 +1,6 @@
 // This function should return an object, but it's not doing what's intended. What's wrong?
 
-unction mystery() {
+function mystery() {
     let results =
       {sanity: 'Hello'};
     return results
