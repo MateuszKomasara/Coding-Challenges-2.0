@@ -36,3 +36,5 @@ function encode(string) {
     }
     return string.split('').map(x=> obj[x]? obj[x]: x).join('')
   }
+
+  
