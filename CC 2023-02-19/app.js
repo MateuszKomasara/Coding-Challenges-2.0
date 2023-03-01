@@ -9,8 +9,7 @@
 
 function orderFood(list) {
     const count = list.reduce((acc, obj) => {
-    const meal = obj.meal;
-    acc[meal] = (acc[meal] || 0) + 1;
+    acc[obj.meal] = (acc[obj.meal] || 0) + 1;
     return acc;
   }, {});
     return count
