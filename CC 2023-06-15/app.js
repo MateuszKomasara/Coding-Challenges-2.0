@@ -22,16 +22,20 @@
 
 // (Condition 2) not fulfilled).
 
-function bouncingBall(h,  bounce,  window) {
-    let bounceH = bounce * h;
-    let count = 1;
-  if(h < 0 || bounce >=1|| bounce<0|| window >= h){
-    return -1
-  } else {
-  while(bounceH > window){
-    bounceH = bounce * bounceH;
-    count+=2
+function bouncingBall(h, bounce, window) {
+    if (h <= 0 || bounce >= 1 || bounce <= 0 || window >= h) {
+      return -1;
+    } else {
+      let bounceH = h;
+      let count = 1;
+      
+      while (bounceH > window) {
+        bounceH = bounce * bounceH;
+        if (bounceH > window) {
+          count += 2;
+        }
+      }
+      
+      return count;
+    }
   }
-  return count
-}
-}
